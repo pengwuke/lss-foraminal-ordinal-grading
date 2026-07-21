@@ -1,0 +1,18 @@
+Protocol V3 Final Minimal 静态检查
+=================================
+
+已完成：
+- 所有Python脚本通过AST语法解析；
+- 主训练默认只使用一个预先固定seed=42；
+- 主训练总量为20次，不重复lambda网格；
+- 主汇总支持原文60/40、公平CORAL 60/40和CORAL-Risk 60/40；
+- Bootstrap以患者为重采样单位；
+- native risk与matched P2+P3分开分析；
+- 可选seed敏感性只重复CORAL与CORAL-Risk；
+- Full-468流程不创建或读取独立测试集。
+
+仍需用户环境验证：
+- Windows PowerShell参数解析；
+- 真实manifest列名；
+- GPU训练依赖；
+- 各训练脚本实际输出文件名与marker一致。

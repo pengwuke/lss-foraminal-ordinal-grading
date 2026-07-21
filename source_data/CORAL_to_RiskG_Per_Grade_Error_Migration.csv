@@ -1,0 +1,5 @@
+﻿grade,grade_name,roi_count,reference_wrong_candidate_correct,reference_correct_candidate_wrong,net_correct_gain,both_correct,both_wrong
+0,Normal,2009,58,12,46,1662,277
+1,Mild,507,9,28,-19,212,258
+2,Moderate,254,7,6,1,111,130
+3,Severe,208,3,1,2,155,49

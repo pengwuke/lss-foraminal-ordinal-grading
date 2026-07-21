@@ -1,0 +1,4 @@
+﻿Model,ROI recall,ROI specificity,ROI flag rate,Patient recall,Patient specificity,Patient flag rate
+Reproduced baseline,89.61%,87.52%,24.45%,91.16%,72.15%,61.54%
+Ordinal model,90.04%,88.16%,23.98%,90.36%,71.23%,61.54%
+Ordinal + auxiliary risk,90.26%,88.59%,23.64%,89.96%,73.52%,60.26%

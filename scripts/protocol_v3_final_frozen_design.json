@@ -1,0 +1,52 @@
+{
+  "schema_version": "lss_protocol_v3_final_minimal_v1",
+  "cohort": {
+    "patients": 468,
+    "roi": 2978,
+    "folds": 5,
+    "split_unit": "patient"
+  },
+  "main_training_seed": 42,
+  "main_training_runs": 20,
+  "main_models": [
+    "Original CNN",
+    "Original DeiT",
+    "CORAL",
+    "CORAL-Risk lambda=0.50"
+  ],
+  "primary_baseline": "Original_60_40",
+  "intermediate_model": "Original_CORAL_60_40",
+  "primary_proposed_model": "Original_CORAL_RISK_G_60_40",
+  "frozen_original_fusion": {
+    "deit": 0.6,
+    "cnn_or_ordinal": 0.4
+  },
+  "frozen_lambda": 0.5,
+  "lambda_selection_role": "supplementary development analysis",
+  "additional_training_seeds": {
+    "values": [
+      2026,
+      3407
+    ],
+    "role": "optional supplementary optimization-sensitivity analysis",
+    "priority": "after the primary Full-468 analysis",
+    "default_models": [
+      "CORAL",
+      "CORAL-Risk"
+    ]
+  },
+  "main_inference": {
+    "patient_cluster_bootstrap_reps": 5000,
+    "target_high_risk_recall": 0.9,
+    "risk_analyses": [
+      "native",
+      "matched"
+    ]
+  },
+  "prohibited_after_results": [
+    "reselect lambda",
+    "retune original 60/40 fusion",
+    "remove poor-performing seeds or folds",
+    "change primary endpoints according to results"
+  ]
+}

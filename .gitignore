@@ -1,0 +1,50 @@
+# Local data and generated outputs
+outputs/
+data/
+dataset/
+datasets/
+raw_data/
+checkpoints/
+runs/
+logs/
+*.log
+
+# Medical imaging / annotation files
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.xml
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+*.pem
+*.key
+credentials*
+secrets*
+
+# Local patch backups
+.release_backup/

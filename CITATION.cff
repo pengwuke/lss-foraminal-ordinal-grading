@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived results, please cite the archived software release and the associated manuscript."
+title: "Patient-level ordinal grading of lumbar foraminal stenosis: Protocol V3 reproducibility package"
+type: software
+authors:
+  - family-names: Peng
+    given-names: Wuke
+    orcid: "https://orcid.org/0009-0003-5791-3783"
+    affiliation: "School of Smart Health, Chongqing Polytechnic University of Electronic Technology"
+    email: "202628001@cquet.edu.cn"
+contact:
+  - family-names: Peng
+    given-names: Wuke
+    orcid: "https://orcid.org/0009-0003-5791-3783"
+    affiliation: "School of Smart Health, Chongqing Polytechnic University of Electronic Technology"
+    email: "202628001@cquet.edu.cn"
+version: "1.0.0"
+date-released: "2026-07-21"
+license: MIT
+repository-code: "https://github.com/pengwuke/lss-foraminal-ordinal-grading"
+url: "https://github.com/pengwuke/lss-foraminal-ordinal-grading"
+keywords:
+  - lumbar foraminal stenosis
+  - magnetic resonance imaging
+  - ordinal regression
+  - CORAL
+  - deep learning
+  - patient-level cross-validation
+  - calibration
+  - selective review

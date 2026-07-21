@@ -1,0 +1,17 @@
+Protocol V3 v1.1 portability and PowerShell note
+================================================
+
+The public-release version removes all personal absolute paths.
+
+- `$ScriptsDir` defaults to the repository `scripts` directory.
+- Generated protocol and result folders default below repository `outputs/`.
+- The local ROI manifest must be supplied by the user or generated locally.
+- `outputs/` is excluded by `.gitignore`.
+- PyTorch warnings written to stderr are not treated as failures when the
+  Python process exits with code 0.
+- Flash and memory-efficient SDPA settings remain controlled by the Python
+  training script as documented in the experiment package.
+
+See:
+  docs/PORTABLE_USAGE.md
+  docs/RUNBOOK.md

@@ -1,0 +1,3 @@
+﻿Comparison,Errors resolved,Errors introduced,Net correct gain,False clearances resolved,False clearances introduced,Net false-clear change,False clearances persistent
+Ordinal model versus reproduced baseline,129,61,68,4,3,-1,97
+Auxiliary risk model versus ordinal model,77,47,30,6,3,-3,94
