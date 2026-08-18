@@ -2,7 +2,7 @@
 
 Reproducibility repository for:
 
-**Four-grade lumbar foraminal stenosis grading on sagittal T2-weighted MRI: a patient-disjoint comparison of ordinal models, auxiliary supervision, and fixed fusion**
+**Four-grade lumbar foraminal stenosis grading on sagittal T2-weighted MRI: a patient-disjoint evaluation of ordinal modelling, moderate-to-severe auxiliary supervision, and fixed DeiT fusion**
 
 Author: Wuke Peng  
 ORCID: 0009-0003-5791-3783
