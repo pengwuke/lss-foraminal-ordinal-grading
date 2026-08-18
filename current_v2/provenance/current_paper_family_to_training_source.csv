@@ -1,0 +1,9 @@
+﻿family,training_source
+Original CNN,51_train_original_cnn_protocol_v3_full468_oof.py
+Original DeiT,52_train_official_deit_protocol_v3_full468_oof.py
+CORAL,53_train_coral_protocol_v3_full468_oof.py
+CNN-MSaux,08b_train_multitask_cnn_risk_head_oof.py
+CORAL-MSaux,54_train_coral_risk_protocol_v3_full468_oof.py
+ConvNeXt-CE,393_train_step14u25d_convnext_ce_differential_lr.py
+ConvNeXt-CORAL,001_train_step06a1_convnext_coral_msaux_unified5fold.py
+ConvNeXt-CORAL-MSaux,001_train_step06a1_convnext_coral_msaux_unified5fold.py

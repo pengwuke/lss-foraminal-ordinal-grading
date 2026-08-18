@@ -1,0 +1,225 @@
+System,True_grade,Predicted_grade,Count
+Original DeiT,0,0,1533
+Original DeiT,0,1,403
+Original DeiT,0,2,68
+Original DeiT,0,3,5
+Original DeiT,1,0,116
+Original DeiT,1,1,255
+Original DeiT,1,2,120
+Original DeiT,1,3,16
+Original DeiT,2,0,8
+Original DeiT,2,1,66
+Original DeiT,2,2,137
+Original DeiT,2,3,43
+Original DeiT,3,0,0
+Original DeiT,3,1,7
+Original DeiT,3,2,55
+Original DeiT,3,3,146
+Original CNN,0,0,1937
+Original CNN,0,1,58
+Original CNN,0,2,12
+Original CNN,0,3,2
+Original CNN,1,0,372
+Original CNN,1,1,73
+Original CNN,1,2,47
+Original CNN,1,3,15
+Original CNN,2,0,75
+Original CNN,2,1,65
+Original CNN,2,2,58
+Original CNN,2,3,56
+Original CNN,3,0,7
+Original CNN,3,1,16
+Original CNN,3,2,33
+Original CNN,3,3,152
+CORAL,0,0,1885
+CORAL,0,1,103
+CORAL,0,2,19
+CORAL,0,3,2
+CORAL,1,0,305
+CORAL,1,1,126
+CORAL,1,2,64
+CORAL,1,3,12
+CORAL,2,0,52
+CORAL,2,1,60
+CORAL,2,2,88
+CORAL,2,3,54
+CORAL,3,0,4
+CORAL,3,1,13
+CORAL,3,2,42
+CORAL,3,3,149
+CNN-MSaux,0,0,1896
+CNN-MSaux,0,1,90
+CNN-MSaux,0,2,18
+CNN-MSaux,0,3,5
+CNN-MSaux,1,0,328
+CNN-MSaux,1,1,95
+CNN-MSaux,1,2,67
+CNN-MSaux,1,3,17
+CNN-MSaux,2,0,69
+CNN-MSaux,2,1,45
+CNN-MSaux,2,2,65
+CNN-MSaux,2,3,75
+CNN-MSaux,3,0,7
+CNN-MSaux,3,1,9
+CNN-MSaux,3,2,41
+CNN-MSaux,3,3,151
+CORAL-MSaux,0,0,1901
+CORAL-MSaux,0,1,82
+CORAL-MSaux,0,2,23
+CORAL-MSaux,0,3,3
+CORAL-MSaux,1,0,308
+CORAL-MSaux,1,1,119
+CORAL-MSaux,1,2,65
+CORAL-MSaux,1,3,15
+CORAL-MSaux,2,0,52
+CORAL-MSaux,2,1,60
+CORAL-MSaux,2,2,87
+CORAL-MSaux,2,3,55
+CORAL-MSaux,3,0,4
+CORAL-MSaux,3,1,12
+CORAL-MSaux,3,2,40
+CORAL-MSaux,3,3,152
+CNN + fixed DeiT,0,0,1594
+CNN + fixed DeiT,0,1,363
+CNN + fixed DeiT,0,2,49
+CNN + fixed DeiT,0,3,3
+CNN + fixed DeiT,1,0,131
+CNN + fixed DeiT,1,1,260
+CNN + fixed DeiT,1,2,103
+CNN + fixed DeiT,1,3,13
+CNN + fixed DeiT,2,0,9
+CNN + fixed DeiT,2,1,72
+CNN + fixed DeiT,2,2,134
+CNN + fixed DeiT,2,3,39
+CNN + fixed DeiT,3,0,0
+CNN + fixed DeiT,3,1,6
+CNN + fixed DeiT,3,2,55
+CNN + fixed DeiT,3,3,147
+CORAL + fixed DeiT,0,0,1716
+CORAL + fixed DeiT,0,1,240
+CORAL + fixed DeiT,0,2,50
+CORAL + fixed DeiT,0,3,3
+CORAL + fixed DeiT,1,0,177
+CORAL + fixed DeiT,1,1,211
+CORAL + fixed DeiT,1,2,105
+CORAL + fixed DeiT,1,3,14
+CORAL + fixed DeiT,2,0,17
+CORAL + fixed DeiT,2,1,65
+CORAL + fixed DeiT,2,2,126
+CORAL + fixed DeiT,2,3,46
+CORAL + fixed DeiT,3,0,3
+CORAL + fixed DeiT,3,1,3
+CORAL + fixed DeiT,3,2,53
+CORAL + fixed DeiT,3,3,149
+CNN-MSaux + fixed DeiT,0,0,1595
+CNN-MSaux + fixed DeiT,0,1,360
+CNN-MSaux + fixed DeiT,0,2,50
+CNN-MSaux + fixed DeiT,0,3,4
+CNN-MSaux + fixed DeiT,1,0,130
+CNN-MSaux + fixed DeiT,1,1,257
+CNN-MSaux + fixed DeiT,1,2,107
+CNN-MSaux + fixed DeiT,1,3,13
+CNN-MSaux + fixed DeiT,2,0,11
+CNN-MSaux + fixed DeiT,2,1,69
+CNN-MSaux + fixed DeiT,2,2,129
+CNN-MSaux + fixed DeiT,2,3,45
+CNN-MSaux + fixed DeiT,3,0,1
+CNN-MSaux + fixed DeiT,3,1,4
+CNN-MSaux + fixed DeiT,3,2,55
+CNN-MSaux + fixed DeiT,3,3,148
+CORAL-MSaux + fixed DeiT,0,0,1743
+CORAL-MSaux + fixed DeiT,0,1,215
+CORAL-MSaux + fixed DeiT,0,2,47
+CORAL-MSaux + fixed DeiT,0,3,4
+CORAL-MSaux + fixed DeiT,1,0,185
+CORAL-MSaux + fixed DeiT,1,1,205
+CORAL-MSaux + fixed DeiT,1,2,101
+CORAL-MSaux + fixed DeiT,1,3,16
+CORAL-MSaux + fixed DeiT,2,0,18
+CORAL-MSaux + fixed DeiT,2,1,64
+CORAL-MSaux + fixed DeiT,2,2,127
+CORAL-MSaux + fixed DeiT,2,3,45
+CORAL-MSaux + fixed DeiT,3,0,2
+CORAL-MSaux + fixed DeiT,3,1,4
+CORAL-MSaux + fixed DeiT,3,2,46
+CORAL-MSaux + fixed DeiT,3,3,156
+ConvNeXt-CE,0,0,1699
+ConvNeXt-CE,0,1,265
+ConvNeXt-CE,0,2,40
+ConvNeXt-CE,0,3,5
+ConvNeXt-CE,1,0,168
+ConvNeXt-CE,1,1,255
+ConvNeXt-CE,1,2,68
+ConvNeXt-CE,1,3,16
+ConvNeXt-CE,2,0,23
+ConvNeXt-CE,2,1,84
+ConvNeXt-CE,2,2,106
+ConvNeXt-CE,2,3,41
+ConvNeXt-CE,3,0,2
+ConvNeXt-CE,3,1,12
+ConvNeXt-CE,3,2,57
+ConvNeXt-CE,3,3,137
+ConvNeXt-CORAL,0,0,1970
+ConvNeXt-CORAL,0,1,6
+ConvNeXt-CORAL,0,2,10
+ConvNeXt-CORAL,0,3,23
+ConvNeXt-CORAL,1,0,425
+ConvNeXt-CORAL,1,1,13
+ConvNeXt-CORAL,1,2,21
+ConvNeXt-CORAL,1,3,48
+ConvNeXt-CORAL,2,0,113
+ConvNeXt-CORAL,2,1,12
+ConvNeXt-CORAL,2,2,27
+ConvNeXt-CORAL,2,3,102
+ConvNeXt-CORAL,3,0,16
+ConvNeXt-CORAL,3,1,3
+ConvNeXt-CORAL,3,2,8
+ConvNeXt-CORAL,3,3,181
+ConvNeXt-CORAL-MSaux,0,0,1976
+ConvNeXt-CORAL-MSaux,0,1,0
+ConvNeXt-CORAL-MSaux,0,2,0
+ConvNeXt-CORAL-MSaux,0,3,33
+ConvNeXt-CORAL-MSaux,1,0,423
+ConvNeXt-CORAL-MSaux,1,1,0
+ConvNeXt-CORAL-MSaux,1,2,2
+ConvNeXt-CORAL-MSaux,1,3,82
+ConvNeXt-CORAL-MSaux,2,0,118
+ConvNeXt-CORAL-MSaux,2,1,0
+ConvNeXt-CORAL-MSaux,2,2,0
+ConvNeXt-CORAL-MSaux,2,3,136
+ConvNeXt-CORAL-MSaux,3,0,18
+ConvNeXt-CORAL-MSaux,3,1,0
+ConvNeXt-CORAL-MSaux,3,2,0
+ConvNeXt-CORAL-MSaux,3,3,190
+ConvNeXt-CORAL + fixed DeiT,0,0,1774
+ConvNeXt-CORAL + fixed DeiT,0,1,177
+ConvNeXt-CORAL + fixed DeiT,0,2,54
+ConvNeXt-CORAL + fixed DeiT,0,3,4
+ConvNeXt-CORAL + fixed DeiT,1,0,211
+ConvNeXt-CORAL + fixed DeiT,1,1,174
+ConvNeXt-CORAL + fixed DeiT,1,2,102
+ConvNeXt-CORAL + fixed DeiT,1,3,20
+ConvNeXt-CORAL + fixed DeiT,2,0,19
+ConvNeXt-CORAL + fixed DeiT,2,1,59
+ConvNeXt-CORAL + fixed DeiT,2,2,118
+ConvNeXt-CORAL + fixed DeiT,2,3,58
+ConvNeXt-CORAL + fixed DeiT,3,0,3
+ConvNeXt-CORAL + fixed DeiT,3,1,3
+ConvNeXt-CORAL + fixed DeiT,3,2,40
+ConvNeXt-CORAL + fixed DeiT,3,3,162
+ConvNeXt-CORAL-MSaux + fixed DeiT,0,0,1780
+ConvNeXt-CORAL-MSaux + fixed DeiT,0,1,167
+ConvNeXt-CORAL-MSaux + fixed DeiT,0,2,57
+ConvNeXt-CORAL-MSaux + fixed DeiT,0,3,5
+ConvNeXt-CORAL-MSaux + fixed DeiT,1,0,210
+ConvNeXt-CORAL-MSaux + fixed DeiT,1,1,168
+ConvNeXt-CORAL-MSaux + fixed DeiT,1,2,109
+ConvNeXt-CORAL-MSaux + fixed DeiT,1,3,20
+ConvNeXt-CORAL-MSaux + fixed DeiT,2,0,21
+ConvNeXt-CORAL-MSaux + fixed DeiT,2,1,55
+ConvNeXt-CORAL-MSaux + fixed DeiT,2,2,121
+ConvNeXt-CORAL-MSaux + fixed DeiT,2,3,57
+ConvNeXt-CORAL-MSaux + fixed DeiT,3,0,2
+ConvNeXt-CORAL-MSaux + fixed DeiT,3,1,4
+ConvNeXt-CORAL-MSaux + fixed DeiT,3,2,39
+ConvNeXt-CORAL-MSaux + fixed DeiT,3,3,163

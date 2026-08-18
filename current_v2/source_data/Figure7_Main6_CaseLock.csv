@@ -1,0 +1,7 @@
+﻿case_key,role,role_strict_match,outer_fold,y_true,coral_msaux_pred,deit_pred,fusion_pred,coral_correct,deit_correct,fusion_correct
+F7_01,benefit_correction,True,0,1,0,2,1,False,False,True
+F7_02,boundary_disagreement,True,0,3,1,3,3,False,True,True
+F7_03,challenge_error,True,1,3,0,1,0,False,False,False
+F7_04,correct_agreement,True,2,0,0,0,0,True,True,True
+F7_05,boundary_disagreement,True,3,2,0,2,1,False,True,False
+F7_06,benefit_correction,True,4,1,0,2,1,False,False,True

@@ -1,99 +1,32 @@
-# Patient-level ordinal grading of lumbar foraminal stenosis
+# Lumbar foraminal stenosis grading on sagittal T2-weighted MRI
 
-Reproducibility repository for the Protocol V3 Full-468 study associated with:
+Reproducibility repository for:
 
-> Patient-level ordinal grading of lumbar foraminal stenosis on sagittal MRI:
-> reproduction of a dual-branch baseline and safety-oriented evaluation using
-> five-fold cross-validation
+**Four-grade lumbar foraminal stenosis grading on sagittal T2-weighted MRI: a patient-disjoint comparison of ordinal models, auxiliary supervision, and fixed fusion**
 
-**Author:** Wuke Peng  
-**Affiliation:** School of Smart Health, Chongqing Polytechnic University of Electronic Technology  
-**Email:** 202628001@cquet.edu.cn  
-**ORCID:** https://orcid.org/0009-0003-5791-3783  
-**Repository:** https://github.com/pengwuke/lss-foraminal-ordinal-grading
+Author: Wuke Peng  
+ORCID: 0009-0003-5791-3783
 
-## Public source dataset
+## Current paper release: v2.0.0
 
-Raw MRI data are not redistributed in this repository.
+`current_v2/` contains the current-paper code and non-image reproducibility material.
 
-- Dataset: https://doi.org/10.17632/rgb77xm3jf.4
-- Dataset paper: https://doi.org/10.1038/s41597-026-07138-x
+- `training/`: **7 current-paper training programs covering 8 independently trained model families**. The unified Step06A1 trainer covers both ConvNeXt-CORAL and ConvNeXt-CORAL-MSaux.
+- `historical_training_sources/`: retained predecessor code, including the pre-OOF CNN-MSaux trainer.
+- `analysis_scripts/`: final journal-uploaded analysis/reproducibility scripts.
+- `source_data/`: final journal-uploaded source-data package.
+- `oof_predictions_and_folds/`: final sanitised OOF predictions and fold assignments.
+- `provenance/`: family-to-source and checkpoint manifests.
 
-## Frozen analysis design
+### CNN-MSaux source identity
+The current OOF CNN-MSaux source is `08b_train_multitask_cnn_risk_head_oof.py`. The earlier `08_train_multitask_cnn_risk_head.py` is retained as a historical predecessor and is not represented as the current OOF source.
 
-- 468 evaluable patients
-- 2,978 expert-defined foraminal ROIs
-- Patient-disjoint five-fold cross-validation
-- Main training seed: 42
-- Primary fusion: 60% DeiT + 40% CNN branch
-- Patient-cluster bootstrap: 5,000 replicates
-- Cross-fitted review thresholds selected from the other four folds
+### Models
+Current checkpoints: https://huggingface.co/wuke2024/lss-foraminal-ordinal-grading-models
 
-## Repository structure
+There are 8 branch families × 5 outer folds = 40 independent checkpoints. Fixed fusion has no separate checkpoint.
 
-```text
-.
-├── CITATION.cff
-├── LICENSE
-├── README.md
-├── .zenodo.json
-├── .gitignore
-├── environment.yml
-├── scripts/
-├── folds/
-├── oof_predictions/
-├── source_data/
-├── docs/
-├── tools/
-└── checksums/
-```
+### Dataset
+MRI data are not redistributed. Dataset DOI: 10.17632/rgb77xm3jf.4
 
-## Reproduction
-
-The training scripts require a local ROI manifest that points to a separately
-downloaded copy of the public dataset. Personal machine paths are not stored in
-this repository.
-
-The primary pipeline uses repository-relative script and output directories:
-
-```powershell
-& ".\scripts\59_run_final_main_pipeline.ps1" `
-  -InputManifest "<LOCAL_ROI_MANIFEST.csv>" `
-  -MainSeed 42 `
-  -BootstrapReps 5000 `
-  -ContinueOnError
-```
-
-When the fixed local Protocol V3 manifest already exists under
-`outputs\protocol_v3_full468`, use:
-
-```powershell
-& ".\scripts\59_run_final_main_pipeline.ps1" `
-  -SkipFoldBuild `
-  -MainSeed 42 `
-  -BootstrapReps 5000 `
-  -ContinueOnError
-```
-
-See `docs/PORTABLE_USAGE.md` and `docs/RUNBOOK.md`.
-
-## Data governance
-
-- No raw MRI, DICOM, XML, or source PNG files are included.
-- No names, dates of birth, accession numbers, credentials, or local absolute
-  paths are included.
-- Public dataset folder identifiers are retained only for reproducible
-  patient-level fold assignment.
-
-## Citation
-
-GitHub reads `CITATION.cff`. Zenodo reads `.zenodo.json` when archiving GitHub
-releases. After release `v1.0.0` is archived, add the version DOI badge and DOI
-to this README.
-
-## Licence
-
-The repository uses the MIT License for original repository code and
-documentation. Before public release, confirm that any code adapted from an
-upstream project retains all required upstream licence and attribution notices.
-The source MRI dataset remains governed by its original repository terms.
+Research/reproducibility use only; not a clinical device.

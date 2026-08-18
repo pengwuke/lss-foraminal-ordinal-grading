@@ -1,0 +1,5 @@
+﻿Branch,Method,Random_minus_guided_AUC,Supplement_display_4dp
+CORAL-MSaux,Integrated gradients,0.118551,0.1186
+CORAL-MSaux,Occlusion,0.119817,0.1198
+Original DeiT,Integrated gradients,0.029961,0.0300
+Original DeiT,Occlusion,0.066601,0.0666
